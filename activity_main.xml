@@ -35,3 +35,29 @@
             android:layout_height="wrap_content"
             android:text="Hatchback"/>
     </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/cbAirConditioning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Klimatyzacja"/>
+
+    <CheckBox
+        android:id="@+id/cbLeatherSeats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skórzane siedzenia"/>
+
+    <Button
+        android:id="@+id/btnShowSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pokaż podsumowanie"/>
+
+    <TextView
+        android:id="@+id/tvSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wybór: "/>
+</LinearLayout>
+
