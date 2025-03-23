@@ -3,6 +3,7 @@ package com.example.carconfigurator
 import android.os.Bundle
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
+
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -31,7 +32,8 @@ class MainActivity : AppCompatActivity() {
                 R.id.rbHatchback -> "Hatchback"
                 else -> ""
             }
-val options = mutableListOf<String>()
+
+            val options = mutableListOf<String>()
             if (cbAirConditioning.isChecked) options.add("Klimatyzacja")
             if (cbLeatherSeats.isChecked) options.add("Skórzane siedzenia")
 
