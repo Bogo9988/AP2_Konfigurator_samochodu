@@ -31,3 +31,12 @@ class MainActivity : AppCompatActivity() {
                 R.id.rbHatchback -> "Hatchback"
                 else -> ""
             }
+val options = mutableListOf<String>()
+            if (cbAirConditioning.isChecked) options.add("Klimatyzacja")
+            if (cbLeatherSeats.isChecked) options.add("Skórzane siedzenia")
+
+            val summary = "Wybrany model: $selectedCarType\nWyposażenie: ${options.joinToString(", ")}"
+            tvSummary.text = summary
+        }
+    }
+}
