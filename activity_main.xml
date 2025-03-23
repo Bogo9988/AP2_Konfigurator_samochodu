@@ -16,7 +16,8 @@
         android:id="@+id/carTypeGroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
-<RadioButton
+
+        <RadioButton
             android:id="@+id/rbSedan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -60,4 +61,3 @@
         android:layout_height="wrap_content"
         android:text="Wybór: "/>
 </LinearLayout>
-
